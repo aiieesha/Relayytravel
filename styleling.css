@@ -1,0 +1,128 @@
+{
+   padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-size: cover;
+}
+/*start of menu design*/
+    nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background: #6E94C8;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0; 
+}
+label.logo{
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav img{
+    
+    width: 150px;
+}
+nav{
+ 
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+  list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+   
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+nav ul li::after{
+  content:close-quote;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto; 
+    transition: 0.5s;
+    transition: 0.5s;
+    
+}
+
+nav ul li:hover::after{
+    width: 100%;
+    
+    
+    
+    
+}
+
+    
+/*end of menu design*/
+
+
+
+body{
+    background: url(images/world%20duniya.avif) no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 350px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+        color:aliceblue;
+}
+
+.login h1{
+  font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0px;
+    font-family:inherit;
+    border-bottom-color: darkblue;
+    border-color:black;
+    
+}
+.login p{
+    font-size: 20px;
+    margin: 16px 0;
+}
+.login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 9px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.login button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
